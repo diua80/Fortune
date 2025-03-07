@@ -29,7 +29,7 @@ function startGame() {
                 }
             if (i === items.length - 1) {
                 const instance = basicLightbox.create(`
-                    <h1 style="color: yellow; font-size: 72px;">
+                    <h1 style="color: rgb(236, 166, 228); font-size: 72px;">
                     ${isWinner ? "Winner!" : "Looser!"}
                     </h1>`);
             instance.show();
